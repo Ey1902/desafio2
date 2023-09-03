@@ -4,21 +4,56 @@ body,html {
     background-color: rgb(197, 197, 197);
     text-align: justify;
 }
+header {
+    background-color: rgb(76, 159, 56, 0.7);
+    color: rgb(197, 197, 197);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 15;
+}
+#logo {
+    width: 10%;
+    position: absolute;
+    top: 5px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    width: 520px;
+    padding-left: 60px;
+    padding-right: 35px;
+    top: 5px;
+    list-style: none;
+}
+.lista {
+    float: left;
+    padding: 1% 2%;
+    margin-right: 0;
+    color: black;
+}
+.lista:hover {
+    background-color: rgb(197, 197, 197);
+    border-radius: 50%;
+}
+.lista:visited {
+    color: rgba(153, 54, 54, 0.384)4, 44, 44);
+}
 #primeiro {
+    height: 300px;
     text-align: center;
-    padding-left: 22%;
-    padding-right: 25%;
+    padding: 5% 25% 0% 22%;
     background-color: rgb(76, 159, 56);
 }
 #health {
     position: absolute;
-    top: 9%;
+    top: 20%;
     right: 75%;
     left: 5%;
 }
 #wellbeing {
     position: absolute;
-    top: 9%;
+    top: 20%;
     right: 5%;
     left: 75%;
 }
@@ -50,7 +85,15 @@ h2 {
     padding: 0% 2%;
     font-size: 110%;
 }
-.topico1 {
+#video {
+    width: 100%;
+    padding-top: 1%;
+}
+#metas {
+    clear: both;
+    background-color: rgb(186, 212, 180);
+}
+#recursos {
     clear: both;
     background-color: rgb(186, 212, 180);
 }
@@ -70,7 +113,11 @@ ul {
     padding: 0% 6% 0% 8%;
     font-size: 110%;
 }
-.topico2 {
+#acts {
+    clear: both;
+    background-color: rgb(197, 197, 197);
+}
+#parceiros {
     clear: both;
     background-color: rgb(197, 197, 197);
 }
@@ -121,7 +168,6 @@ ul {
 }
 footer {
     clear: both;
-    background-color: rgb(76, 159, 56);
 }
 h4 {
     padding-left: 5%;
@@ -129,4 +175,12 @@ h4 {
 }
 #canva {
     padding-left: 5%;
+}
+.colunae {
+    background-color: rgb(76, 159, 56, 0.8);
+    position: relative;
+    padding: 0% 2%;
+    width: 46%;
+    height: 180px;
+    float: left;
 }
