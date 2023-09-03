@@ -7,7 +7,18 @@
     <link rel="stylesheet" href="estilo.css" type="text/css">
 </head>
 <body>
-    <div id="primeiro">
+    <header>
+        <img id="logo" src="./img/Mais_Saúde.png" alt="logo mais saúde">
+        <ul id="menu">
+            <li class="lista"><a href="#projetos">Projeto</a></li>
+            <li class="lista"><a href="#metas">Metas</a></li>
+            <li class="lista"><a href="#acts">Atividades</a></li>
+            <li class="lista"><a href="#recursos">Recursos</a></li>
+            <li class="lista"><a href="#parceiros">Parceiros</a></li>
+            <li class="lista"><a href="#final">Sobre</a></li>
+        </ul>
+    </header>
+        <div id="primeiro">
         <img id="health" src="./img/health.png" alt="imagem simbolizando a saúde" width="16%">
         <img id="wellbeing" src="./img/wellbeing.png" alt="imagem simbolizando o bem-estar" width="20%">
         <h1>Saúde e Bem-Estar</h1>
@@ -20,10 +31,10 @@
             <p class="intro">Veja ao lado um pequeno vídeo elaborado pelo IBGE, detalhando um pouco mais sobre esse objetivo:</p>
         </div>
         <div class="coluna">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/LMOynUxsGHo?si=QL8Eb_8DihaoTfzP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/LMOynUxsGHo?si=QL8Eb_8DihaoTfzP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </section>
-    <section class="topico1">
+    <section id="metas">
         <h3 class="outros">Metas do Projeto</h3>
         <p class="texto">Para alcançar esse objetivo, a ONU estabeleceu algumas metas a serem atingidas até 2030:</p>
         <ol>
@@ -44,7 +55,7 @@
             <li>Reforçar a capacidade de todos os países, particularmente os países em desenvolvimento, para o alerta precoce, redução de riscos e gerenciamento de riscos nacionais e globais de saúde.</li>
         </ul>
     </section>
-    <section class="topico2">
+    <section id="acts">
         <h3 class="outros">Atividades em Andamento</h3>
         <P class="texto">Até o ano de 2022, o Brasil já possuía um total de 24 atividades empregadas em nível nacional e 189 atividades implementadas em diferentes localidades em todo o país, conforme ilustra a imagem abaixo:</P>
         <div class="coluna">
@@ -54,11 +65,11 @@
             <p id="legenda">Em laranja, atividades empregadas em nível nacional e, em azul, atividades com localidades detalhadas</p>
         </div>
     </section>
-    <section class="topico1">
+    <section id="recursos">
         <h3 class="outros">Recursos e Investimentos no Brasil</h3>
         <p class="texto">Até 2022, o Brasil possuía um total de $191,3 milhões em recursos disponíveis para uso nos Objetivos de Desenvolvimento Sustentável, dos quais 11,8% - média de $22,5 milhões - são reservados à Saúde e Bem-Estar.</p>
     </section>
-    <section class="topico2">
+    <section id="parceiros">
         <h3 class="outros">Parceiros Associados no Brasil</h3>
         <p class="texto">Essas ações contam com o apoio de parceiros Contribuintes e Implementares.</p>
         <div class="coluna">
@@ -87,10 +98,16 @@
     </section>
 </body>
 <footer>
-    <h4>Créditos:</h4>
-    <p><b>Conteúdo:</b> <a href="https://brasil.un.org/pt-br/sdgs" target="_blank">Nações Unidas Brasil</a></p>
-    <p><b>Imagens:</b> 
+    <div class="colunae">
+        <h4>Meu Primeiro Site</h4>
+        <p>Site confeccionado para entrega de atividade da plataforma Inspira JA.</p>
+    </div>
+    <div class="colunae">
+        <h4>Créditos:</h4>
+        <p><b>Conteúdo:</b> <a href="https://brasil.un.org/pt-br/sdgs" target="_blank">Nações Unidas Brasil</a></p>
+        <p><b>Imagens:</b> 
         <a href="https://brasil.un.org/pt-br/sdgs" target="_blank">Nações Unidas Brasil</a></p>
         <a id="canva" href="https://www.canva.com/" target="_blank">Canva</a></p>
+    </div>
 </footer>
 </html>
