@@ -1,0 +1,132 @@
+body,html {
+    margin: auto;
+    border: 5px solid rgb(76, 159, 56);
+    background-color: rgb(197, 197, 197);
+    text-align: justify;
+}
+#primeiro {
+    text-align: center;
+    padding-left: 22%;
+    padding-right: 25%;
+    background-color: rgb(76, 159, 56);
+}
+#health {
+    position: absolute;
+    top: 9%;
+    right: 75%;
+    left: 5%;
+}
+#wellbeing {
+    position: absolute;
+    top: 9%;
+    right: 5%;
+    left: 75%;
+}
+h1 {
+    font-size: 410%;
+    position: relative;
+    text-shadow: 2px 2px 5px rgb(14, 41, 7);
+}
+h2 {
+    position: relative;
+    font-size: 250%;
+    border-top: 3px solid black;
+}
+.coluna {
+    position: relative;
+    padding: 0% 2%;
+    width: 45%;
+    float: left;
+}
+#projeto {
+    background-color: rgb(197, 197, 197);
+}
+#sobre {
+    text-align: center;
+    font-size: 200%;
+}
+.intro {
+    text-align: justify;
+    padding: 0% 2%;
+    font-size: 110%;
+}
+.topico1 {
+    clear: both;
+    background-color: rgb(186, 212, 180);
+}
+.outros {
+    padding-left: 5%;
+    font-size: 200%;
+}
+.texto {
+    padding: 0% 2% 0% 2%;
+    font-size: 110%;
+}
+ol {
+    padding: 0% 4% 0% 6%;
+    font-size: 110%;
+}
+ul {
+    padding: 0% 6% 0% 8%;
+    font-size: 110%;
+}
+.topico2 {
+    clear: both;
+    background-color: rgb(197, 197, 197);
+}
+.mapa {
+    opacity: 70%;
+}
+.mapa:hover {
+    opacity: 100%;
+}
+#legenda {
+    margin: 69% 55% 0% 0%;
+    border: dashed 2px rgb(76, 159, 56);
+}
+.contribuintes {
+    opacity: 50%;
+}
+.contribuintes:hover {
+    opacity: 100%;
+}
+.implementares {
+    opacity: 50%;
+}
+.implementares:hover {
+    opacity: 100%;
+}
+#final {
+    clear: both;
+}
+#eu {
+    font-size: 200%;
+    text-align: center;
+}
+#apresentacao {
+    font-size: 110%;
+    padding:  0% 10% 0% 2%;
+    text-align: justify;
+}
+#perfil {
+    width: 25.6%;
+}
+.colunaf {
+    background-color: rgb(27, 61, 19);
+    color: rgb(197, 197, 197);
+    position: relative;
+    padding: 0% 2%;
+    width: 46%;
+    float: right;
+}
+footer {
+    clear: both;
+    background-color: rgb(76, 159, 56);
+}
+h4 {
+    padding-left: 5%;
+    font-size: 130%;
+}
+#canva {
+    padding-left: 5%;
+}
