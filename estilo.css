@@ -37,12 +37,12 @@ header {
     border-radius: 50%;
 }
 .lista:visited {
-    color: rgba(153, 54, 54, 0.384)4, 44, 44);
+    color: rgba(153, 54, 54, 0.384);
 }
 #primeiro {
-    height: 300px;
+    height: 400px;
     text-align: center;
-    padding: 5% 25% 0% 22%;
+    padding: 10% 25% 8% 22%;
     background-color: rgb(76, 159, 56);
 }
 #health {
@@ -56,6 +56,18 @@ header {
     top: 20%;
     right: 5%;
     left: 75%;
+}
+#botao {
+    clear: both;
+    text-align: center;
+    border: dashed 2px rgb(14, 41, 7);
+    background-image: linear-gradient(rgb(76, 159, 56), rgb(186, 212, 180), rgb(76, 159, 56));
+    width: 160px;
+    padding: 1%;
+    margin-left: 35%;
+}
+#botao:visited {
+    color: rgba(153, 54, 54, 0.384);
 }
 h1 {
     font-size: 410%;
